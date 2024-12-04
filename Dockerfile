@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the project files to the container
 COPY . ./
-
+# test test
 # Restore dependencies
 RUN dotnet restore
 
